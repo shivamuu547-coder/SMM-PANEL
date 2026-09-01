@@ -62,10 +62,10 @@ module.exports = async (req, res) => {
         },
 
         success_url:
-          "https://YOUR-VERCEL-DOMAIN.vercel.app/?payment=success",
+          "https://smm-panel-seven-nu.vercel.app/",
 
         cancel_url:
-          "https://YOUR-VERCEL-DOMAIN.vercel.app/?payment=cancelled"
+          "https://smm-panel-seven-nu.vercel.app/"
       });
 
     return res.status(200).json({
